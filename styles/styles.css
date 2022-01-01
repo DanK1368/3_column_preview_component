@@ -124,7 +124,7 @@ main {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) {
   p {
     font-size: 1.6rem;
   }
@@ -153,45 +153,6 @@ main {
   }
   .card-component p {
     padding-bottom: 4rem;
-  }
-  .sedan-card {
-    border-radius: 10px 0px 0px 10px;
-  }
-  .luxury-card {
-    border-radius: 0px 10px 10px 0px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  p {
-    font-size: 1.7rem;
-  }
-  h1,
-  h2 {
-    font-size: 4rem;
-  }
-  .main-card-wrapper {
-    width: 120rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .card-component {
-    min-height: 60rem;
-  }
-  .card-component p {
-    padding-bottom: 1rem;
-    line-height: 3rem;
   }
   .sedan-card {
     border-radius: 10px 0px 0px 10px;
